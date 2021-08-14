@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs 26.1\n"
-"POT-Creation-Date: 2021-04-29 21:05+0900\n"
+"POT-Creation-Date: 2021-08-15 02:26+0900\n"
 "PO-Revision-Date: 2021-05-09 17:04+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
@@ -3298,13 +3298,19 @@ msgstr "連想リスト@var{alist}のキーとして使用される先頭にド�
 
 #. type: lisp
 #: original_texis/lists.texi:1807
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "(setq colors '((rose . red) (lily . white) (buttercup . yellow)))\n"
+#| "(let-alist colors\n"
+#| "  (if (eq .rose 'red)\n"
+#| "      .lily))\n"
+#| "=> white\n"
 msgid ""
 "(setq colors '((rose . red) (lily . white) (buttercup . yellow)))\n"
 "(let-alist colors\n"
 "  (if (eq .rose 'red)\n"
 "      .lily))\n"
-"=> white\n"
+"     @result{} white\n"
 msgstr ""
 "(setq colors '((rose . red) (lily . white) (buttercup . yellow)))\n"
 "(let-alist colors\n"
@@ -3324,13 +3330,19 @@ msgstr "ネストされた連想リストをサポートする:"
 
 #. type: lisp
 #: original_texis/lists.texi:1823
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "(setq colors '((rose . red) (lily (belladonna . yellow) (brindisi . pink))))\n"
+#| "(let-alist colors\n"
+#| "  (if (eq .rose 'red)\n"
+#| "      .lily.belladonna))\n"
+#| "=> yellow\n"
 msgid ""
 "(setq colors '((rose . red) (lily (belladonna . yellow) (brindisi . pink))))\n"
 "(let-alist colors\n"
 "  (if (eq .rose 'red)\n"
 "      .lily.belladonna))\n"
-"=> yellow\n"
+"     @result{} yellow\n"
 msgstr ""
 "(setq colors '((rose . red) (lily (belladonna . yellow) (brindisi . pink))))\n"
 "(let-alist colors\n"

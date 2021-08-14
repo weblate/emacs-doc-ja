@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-lispref 26.1\n"
-"POT-Creation-Date: 2021-04-29 21:08+0900\n"
-"PO-Revision-Date: 2021-06-07 07:30+0900\n"
+"POT-Creation-Date: 2021-08-15 02:29+0900\n"
+"PO-Revision-Date: 2021-08-15 02:35+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -866,7 +866,7 @@ msgstr "オプション引数@var{wrap}が非@code{nil}なら、それはフレ�
 #. type: defun
 #: original_texis/windows.texi:400
 msgid "If the optional argument @var{mini} is @code{nil}, this means to return the minibuffer window if and only if it is currently active.  If @var{mini} is non-@code{nil}, this function may return the minibuffer window even when it's not active.  However, if @var{wrap} is non-@code{nil}, it always acts as if @var{mini} were @code{nil}."
-msgstr "@var{mini}が@code{nil}なら、カレントでアクティブな場合のみミニバッファーウィンドウをリターンすることを意味する。@var{minibuf}が非@code{nil}なら、この関数はアクティブではないミニバッファーウィンドウをリターンするかもしれない。しかし@var{wrap}が非@code{nil}なら、常に@var{mini}が@code{nil}であるかのように振る舞う。\n"
+msgstr "@var{mini}が@code{nil}なら、カレントでアクティブな場合のみミニバッファーウィンドウをリターンすることを意味する。@var{minibuf}が非@code{nil}なら、この関数はアクティブではないミニバッファーウィンドウをリターンするかもしれない。しかし@var{wrap}が非@code{nil}なら、常に@var{mini}が@code{nil}であるかのように振る舞う。"
 
 #. type: defun
 #: original_texis/windows.texi:403
