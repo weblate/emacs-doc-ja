@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Emacs 25.1\n"
 "POT-Creation-Date: 2021-08-15 02:24+0900\n"
-"PO-Revision-Date: 2021-05-09 09:43+0900\n"
+"PO-Revision-Date: 2021-08-15 10:01+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -3173,7 +3173,7 @@ msgstr "intangible @r{(overlay property)}"
 #. type: table
 #: original_texis/display.texi:1827
 msgid "The @code{intangible} property on an overlay works just like the @code{intangible} text property.  It is obsolete.  @xref{Special Properties}, for details."
-msgstr "オーバーレイの@code{intangible}プロパティは正に@code{intangible}テキストプロパティと同様に機能する。これは時代遅れである。詳細は@xref{Special Properties}を参照のこと。"
+msgstr "オーバーレイの@code{intangible}プロパティは正に@code{intangible}テキストプロパティと同様に機能する。これは時代遅れである。詳細は@ref{Special Properties}を参照のこと。"
 
 #. type: item
 #: original_texis/display.texi:1828

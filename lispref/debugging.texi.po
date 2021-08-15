@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Emacs 26.1\n"
 "POT-Creation-Date: 2021-08-15 02:24+0900\n"
-"PO-Revision-Date: 2021-05-07 20:56+0900\n"
+"PO-Revision-Date: 2021-08-15 10:00+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -409,7 +409,7 @@ msgstr "たとえばemacsclientの@option{--eval}オプションによるコー�
 #. type: defopt
 #: original_texis/debugging.texi:180
 msgid "@strong{Warning:} Setting this variable to non-@code{nil} may have annoying effects.  Various parts of Emacs catch errors in the normal course of affairs, and you may not even realize that errors happen there.  If you need to debug code wrapped in @code{condition-case}, consider using @code{condition-case-unless-debug} (@pxref{Handling Errors})."
-msgstr "@strong{警告:} この変数を非@code{nil}にセットすると、芳しくない効果があるかもしれない。Emacsのさまざまな部分で処理の通常の過程としてエラーがキャッチされており、そのエラーが発生したことに気づかないことさえあるかもしれない。@code{condition-case}でラップされたコードをデバッグする必要があるなら、@code{condition-case-unless-debug}(@pxref{Handling Errors}を参照)の使用を考慮されたい。"
+msgstr "@strong{警告:} この変数を非@code{nil}にセットすると、芳しくない効果があるかもしれない。Emacsのさまざまな部分で処理の通常の過程としてエラーがキャッチされており、そのエラーが発生したことに気づかないことさえあるかもしれない。@code{condition-case}でラップされたコードをデバッグする必要があるなら、@code{condition-case-unless-debug}(@ref{Handling Errors}を参照)の使用を考慮されたい。"
 
 #. type: defopt
 #: original_texis/debugging.texi:182
